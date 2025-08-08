@@ -1,0 +1,31 @@
+[package]
+name    = "rpki-fuzz-fuzz"   # any name is fine; it’s scoped to the fuzz crate
+version = "0.0.0"
+edition = "2024"             # 2024 is stable as of Rust 1.76; 2021 would also work
+publish = false
+
+[package.metadata]
+cargo-fuzz = true            # lets `cargo fuzz` discover the crate
+
+[dependencies]
+libfuzzer-sys = "0.4"
+routinator = { path = "../" }
+
+[dependencies.rpki]
+version   = "0.18"           # same crate Routinator uses
+features  = ["rrdp"]         # turns the RRDP modules on
+rpki = { version = "0.18.6", default-features = false } # Add this if not already pulled via routinator
+
+[[bin]]
+name = "rrdp_snapshot_delta"   # the target name you’ll pass to cargo-fuzz
+path = "fuzz_targets/rrdp_snapshot_delta.rs"
+test = false
+doc  = false
+bench = false
+
+[[bin]]
+name = "rrdp_all_together"
+path = "fuzz_targets/rrdp_all_together.rs"
+test = false
+doc = false
+bench = false
