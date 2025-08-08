@@ -1,0 +1,16 @@
+<notification version="1" session_id="4a394319-7460-4141-a416-1addb69284ff" serial="124628" xmlns="http://www.ripe.net/rpki/rrdp">
+<snapshot uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124628/snapshot.xml" hash="cf00ee246e561d1c16c00d966928b545a92afab12479e66b376ac6536cdcd3f4"/>
+<delta serial="124628" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124628/delta.xml" hash="6b382de5d50eafb61627d7d8d36e3432fa701737d963450b596e1491a1b344c9"/>
+<delta serial="124627" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124627/delta.xml" hash="1650c747489b5665fac03e0129548c8527f60635ac387fe2a163b94d9dd33f17"/>
+<delta serial="124626" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124626/delta.xml" hash="3b0d4dd5f4bf3325c26ff6d9b71d553fd909feca024a1d52ce08493a26dde7c6"/>
+<delta serial="124625" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124625/delta.xml" hash="e9248b430a7e4f818ab1538015f0555630ffba86a5bc1b6dfe5238c67b5f6855"/>
+<delta serial="124624" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124624/delta.xml" hash="9321ac670efdfd828f97353031e91077da4c258070f062b12121743f8a89131a"/>
+<delta serial="124623" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124623/delta.xml" hash="dc532ff07080c81794afda88c8a54d9f7404a63b28cd7dcf7e6bfc7322522e94"/>
+<delta serial="124622" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124622/delta.xml" hash="3f171a86eaeb668ee3e2eeeb2a6150a534d1c96d326a8b2f6ca99fd798ab5148"/>
+<delta serial="124621" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124621/delta.xml" hash="9da5f4a09cb018f35f98315f0b2acea5f8a2927b984243f22bd96f933a29a9d9"/>
+<delta serial="124620" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124620/delta.xml" hash="ba494df302fda3d4da7ea94bd4541228af8e8d120fbba3f679b7297991bbc01a"/>
+<delta serial="124619" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124619/delta.xml" hash="20dd9b1fb211bb0306074f2f761620bfebbbe4b8fa23ae3b26c0718f6a9c7896"/>
+<delta serial="124618" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124618/delta.xml" hash="899b1857694ebb84ebdfe966d5e833ae270c780725e3ce3339801e7ae0aac9e3"/>
+<delta serial="124617" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124617/delta.xml" hash="a5f2e3420480e1b7b9cadc633f9a6306a82c931adb8a61504fadfd0e65fb1aff"/>
+<delta serial="124616" uri="https://rrdp.arin.net/4a394319-7460-4141-a416-1addb69284ff/124616/delta.xml" hash="1cdde1478409018b9389c6057abd52e2819ee915fe813f79bc344eacfb16a5c3"/>
+</notification>

@@ -1,0 +1,4 @@
+{ 
+  "local-repository": "/tmp/fort/repository",
+  "tal": "/home/rootless/tools/FORT-validator-main/tal"
+} 

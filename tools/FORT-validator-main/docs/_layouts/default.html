@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- Styles -->
+	<link href="./css/screen.css" rel="stylesheet" type="text/css">
+
+	<meta name="robots" content="index,follow">
+	{% seo %}
+</head>
+
+<body>
+<!-- Header -->
+<header class="site-header">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col">
+				<div class="logo">
+					<a href="./index.html" title="" class="d-flex">
+						<img src="./img/logo_validador_fort.svg" alt="Fort" width="125px">
+					</a>
+				</div>
+			</div>
+			<div class="col-auto">
+				<div class="menu-open">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="navigation">
+					<nav class="site-nav">
+						<ul>
+							<li><a class="active-item" href="./index.html">FORT Validator</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="site-section section-h-full">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<aside class="site-aside">
+					<ul class="list-bullet">
+						<li><a class="item-menu{% if page.url == '/' or page.url == '/index.html' %} active{% endif %}" href="index.html">Home</a></li>
+						<li><a class="item-menu{% if page.url == '/intro-rpki.html' %} active{% endif %}" href="intro-rpki.html">Introduction to RPKI</a></li>
+						<li><a class="item-menu{% if page.url == '/intro-fort.html' %} active{% endif %}" href="intro-fort.html">Introduction to Fort</a></li>
+						<li><a class="item-menu{% if page.url == '/installation.html' %} active{% endif %}" href="installation.html">Compilation and Installation</a></li>
+						<li><a class="item-menu{% if page.url == '/run.html' %} active{% endif %}" href="run.html">Basic Usage</a></li>
+						<li><a class="item-menu{% if page.url == '/usage.html' %} active{% endif %}" href="usage.html">Program Arguments</a></li>
+						<li><a class="item-menu{% if page.url == '/logging.html' %} active{% endif %}" href="logging.html">Logging</a></li>
+						<li><a class="item-menu{% if page.url == '/slurm.html' %} active{% endif %}" href="slurm.html">SLURM</a></li>
+						<li><a class="item-menu{% if page.url == '/incidence.html' %} active{% endif %}" href="incidence.html">Incidences</a></li>
+						<li><a class="item-menu{% if page.url == '/routers.html' %} active{% endif %}" href="routers.html">Routers</a></li>
+						<li><a class="item-menu{% if page.url == '/CVE.html' %} active{% endif %}" href="CVE.html">CVEs</a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="col">
+				<article class="article-section">
+				{{ content }}
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Footer -->
+<footer class="site-footer">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col">
+			</div>
+			<div class="col">
+				<a href="https://github.com/NICMx/FORT-validator" target="_blank" title="" class="d-flex justify-content-center">
+					<img src="./img/GitHub-Mark-Light-120px-plus.png" alt="Git" width="40">
+				</a>
+			</div>
+			<div class="col-lg text-right">
+				<a href="mailto:validadorfort@fortproject.net" target="_blank" title="">validadorfort@fortproject.net</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="js-overlay overlay-content"></div>
+
+<!-- Bootstrap js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- APP JS -->
+<script src="./js/metodos.js" type="text/javascript"></script>
+
+
+</body>
+</html>
